@@ -1,0 +1,23 @@
+
+
+.about-bio {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    padding-top: 50px;
+
+    img {
+        border-radius: 50%;
+        border: solid white 2px;
+        margin: 20px;
+    }
+
+    .author-name {
+        margin-top: 10px;
+    }
+
+    .about-bio-story {
+        max-width: 600px; 
+        margin-top: 20px;
+    }
+}
